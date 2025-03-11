@@ -1,8 +1,15 @@
+import Banner from "../Components/Banner"
+import Header from "../Components/Header"
+import SpecialityMenu from "../Components/SpecialityMenu"
+import TopDoctors from "../Components/TopDoctors"
 
 const Home = () => {
   return (
     <div>
-      Home    
+     <Header/>
+     <SpecialityMenu/>
+     <TopDoctors/>  
+     <Banner/>
     </div>
   )
 }
